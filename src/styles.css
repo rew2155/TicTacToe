@@ -55,6 +55,38 @@
     margin: 20px;
     padding: 0;
   }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
   
   .square {
     background: #fff;
@@ -88,4 +120,10 @@
   .game-info {
     margin-left: 20px;
   }
+
+  .winning-square {
+    background-color: #90ee90; 
+  }
+
+
   
